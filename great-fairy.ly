@@ -8,18 +8,29 @@ oot and other 3d games are in F major %}
       \new Staff
       {
         \key fis \major
-        ais'16( dis, b gis)
+        \time 3/4
+        <eis,, gis b dis>8
+        <gis b dis eis>
+        <b dis eis gis>
+        <dis eis gis b>
+        <eis gis b dis>
+        <gis b dis eis>
+
+        \time 4/4
+        \ottava #1
+        \bar ".|:"
+        ais''16( dis, b gis)
         gis'( dis b gis)
-        fisis' dis b gis
-        gis' dis b gis |
+        fisis'( dis b gis)
+        gis'( dis b gis) |
 
-        gis' cis, ais fis
-        fis' cis ais fis
-        eis' cis ais fis
-        fis' cis ais fis |
+        gis'( cis, ais fis)
+        fis'( cis ais fis)
+        eis'( cis ais fis)
+        fis'( cis ais fis) |
 
-        fis' b, gis eis
-        eis' b gis eis
+        fis'( b, gis eis)
+        eis'( b gis eis)
         disis' b gis eis
         eis' b gis eis |
 
@@ -55,7 +66,12 @@ oot and other 3d games are in F major %}
       {
         \key fis \major
         \clef "bass"
-        b16 b' dis ais'~
+        \time 3/4
+        <cis gis' cis>2.
+
+        \time 4/4
+        \bar ".|:"
+        b'16 b dis ais'~
         ais4
         r16 dis, ais' gis
         cis ais gis dis |
@@ -94,6 +110,7 @@ oot and other 3d games are in F major %}
         b4
         cis,,16 cis' b' gis
         eis' dis gis eis
+        \bar ":|."
       }
     >>
   }
